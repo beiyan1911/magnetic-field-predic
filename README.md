@@ -1,6 +1,6 @@
 # Predicting the Evolution of Photospheric Magnetic Field in Solar Active Regions Using Deep Learning
 
-Liang Bai, Yi Bi, Bo Yang, Jun-Chao Hong, Zhe Xu, Zhen-Hong Shang, HuiLiu, Hai-Sheng Ji and Kai-Fan Ji
+Liang Bai, Yi Bi, Bo Yang, Jun-Chao Hong, Zhe Xu, Zhen-Hong Shang, Hui Liu, Hai-Sheng Ji and Kai-Fan Ji
 
 
 ## Environments
