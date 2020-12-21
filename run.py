@@ -41,7 +41,7 @@ parser.add_argument('--img_channel', type=int, default=1)
 
 # model
 parser.add_argument('--model_name', type=str, default='custom')
-parser.add_argument('--pretrained_model', type=str, default='../outputs/MF_results/checkpoints/model.ckpt-1')
+parser.add_argument('--pretrained_model', type=str, default='../outputs/MF_results/checkpoints/model.ckpt')
 parser.add_argument('--num_hidden', type=str, default='48,48,48')
 parser.add_argument('--filter_size', type=int, default=5)
 parser.add_argument('--stride', type=int, default=1)

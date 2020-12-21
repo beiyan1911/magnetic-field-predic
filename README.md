@@ -1,6 +1,6 @@
 # Predicting the Evolution of Photospheric Magnetic Field in Solar Active Regions Using Deep Learning
 
-Liang Bai, Yi Bi, Bo Yang, Jun-Chao Hong, Zhe Xu, Zhen-Hong Shang, Hui Liu, Hai-Sheng Ji and Kai-Fan Ji
+Liang Bai, Yi Bi, Bo Yang, Jun-Chao Hong, Zhe Xu, Zhen-Hong Shang, Hui Liu, Hai-Sheng Ji and [Kai-Fan Ji<sup>*</sup>](https://github.com/jikaifan)
 
 
 ## Environments
@@ -9,11 +9,23 @@ Liang Bai, Yi Bi, Bo Yang, Jun-Chao Hong, Zhe Xu, Zhen-Hong Shang, Hui Liu, Hai-
 - CUDA 10.0 & cuDNN 7.1
 - Python 3.6
 
-## Test code
-We are doing some finishing work and will update our code and trained models soon.
+## Datasets and Model
+**Paper:** https://arxiv.org/abs/2012.03584
 
-[**Trained Model**]
+**Datasets:** [baiduYunPan](https://pan.baidu.com/s/1tJ9IdVF4GqTD0oAqtp8fxA) code: 6i6b
 
+**Trained Model:** [baiduYunPan](https://pan.baidu.com/s/1Vwn9wDj6Jns6R_qxRV-XBg) code: sgjw
+
+**More Test Results:** [animation](animation/)
+## run
+- train the model
+```bash
+python run.py --is_training=True --device=cuda:0
+```
+- generate the results
+```bash
+python run.py --is_training=False --device=cuda:0 --pretrained_model=outpath/checkpoints/model.ckpt-1
+```
 
 ## Acknowledgement
 Our work and implementations are inspired by and based on
